@@ -1,6 +1,6 @@
 const express = require('express'); // Import express
 const app = express(); // Create an app
-const PORT = 3000; // Port number for your server
+const PORT = 4000; // Port number for your server
 
 // Define what happens when someone visits the home page
 app.get('/', (req, res) => {
